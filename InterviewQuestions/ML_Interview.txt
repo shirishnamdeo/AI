@@ -1,0 +1,264 @@
+https://sebastianraschka.com/faq/
+https://docs.google.com/document/d/10XqvDZsXXqlpcgXS3kzkllNsZaPD11B_tr0mhN1DOcQ/edit#heading=h.9o5sd4yz3zkz
+
+----------------------------------------------------------------------------------------------------
+
+Miscelleneous-IQ
+MIQ-001. Parametric Learning Algorithm vs Non Parametric Learning Algorithms?
+MIQ-002. Convex vs Non-Convex Cost function? What does it mean when a cost function is non-convex?
+MIQ-003. Machine-Learning vs Deep-Learning?
+MIQ-004. Machine-Learning vs Deep-Learning -> What to choose for a project?
+M1Q-005. Unreasonable Effectiveness of data?
+M1Q-006. Active vs Passive Learning?
+M1Q-007. Semi-Supervised Learning (SSL)?
+M1Q-008. Un-Supervised Learning? Examples?
+M1Q-009. Out-Of-Bag (OOB) Error/Estimates?
+M1Q-010. Out-Of-Bag vs Cross-Validation?
+M1Q-011. Scenarios where Decision-Tree preferred over Random-Forest?
+MIQ-012. Online vs Offline Machine Learning? Exmaples?
+
+MachineLearning-IQ
+MLIQ-001. What is Naive in Naive-Bayes?
+MLIQ-002. Lazy and Eager Learning?
+MLIQ-003. [KNN] Why KNN is known as a Lazy-Learner?
+MLIQ-004. [Losigtic-Regression] Why Logistic Regression is called Regression?
+
+DeepLearning-IQ
+
+
+Statistics-IQ
+SIQ-001: Example of when False-Positive is more crucial than False-Negative and vice versa?
+SIQ-002: Example where Median is a better measure than the Mean?
+
+----------------------------------------------------------------------------------------------------
+
+14. What is No Free Lunch Theorem?
+15. Imagine you are woking with a laptop of 2GB RAM, how would you process a dataset of 10GB?
+16. What are the main differences between Structured and Unstructured Data?
+17. What are the main points of difference between Bagging and Boosting?
+18. What are the assumptions of linear regression?
+19. How do you measure the accuracy of a Clustering Algorithm?
+20. What is Matrix Factorization and where is it used in Machine Learning?
+21. What is an Imbalanced Dataset and how can one deal with this problem?
+22. How do you measure the accuracy of a recommendation engine?
+23. What are some ways to make your model more robust to outliers?
+24. How can you measure the performance of a dimensionality reduction algorithm on your dataset?
+25. What is Data Leakage? List some ways using which you can overcome this problem.
+26. What is Multicollinearity? How to detect it? List some techniques to overcome Multicollinearity.
+27. List some ways using which you can reduce overfitting in a model.
+28. What are the different types of bias in Machine Learning?
+29. How do you approach a categorical feature with high cardinality?
+30. Explain Pruning in Decision Trees and how it is done
+31. What is ROC-AUC curve? List some of it’s benefits.
+32. What are kernels in SVM? Can you list some popular SVM kernels.
+33. What is the difference between Gini Impurity and Entropy? Which one is better and why?
+34. Why does L2 regularization give sparse coefficients?
+35. List some ways using which you can improve a model’s performance.
+36. Can PCA be used to reduce the dimensionality of a highly nonlinear dataset?
+37. What’s the difference between probability and likelihood?
+38. What cross-validation technique would you use on a time series data set.
+39. Once a dataset’s dimensionality has been reduced, is it possible to reverse the operation? If so, how? If not, why?
+40. Why do we always need the intercept term in a regression model??
+41. When Your Dataset Is Suffering From High Variance, How Would You Handle It?
+42. Which Among These Is More Important Model Accuracy Or Model Performance?
+43. What is active learning and where is it useful?
+44. Why is Ridge Regression called Ridge?
+45. State the differences between causality and correlation?
+46. Does it make any sense to chain two different dimensionality reduction algorithms?
+47. Is it possible to speed up training of a bagging ensemble by distributing it across multiple servers?
+48. If a Decision Tree is underfitting the training set, is it a good idea to try scaling the input features?
+49. Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
+50. What is cross validation and its types?
+51. How do we interpret weights in linear models?
+52. Which Gradient Descent algorithm (among those we discussed) will reach the vicinity of the optimal solution the fastest? Which will actually converge?
+53. Why is it important to scale the inputs when using SVMs?
+54. What is p value and why is it important?
+55. What is OvR and OvO for multiclass classification and which machine learning algorithm supports this
+56. How will you do feature selection using Lasso Regression?
+57. What is the difference between loss function and cost function?
+58. What are the common ways to handle missing data in a dataset?
+59. What is the difference between standard scaler and minmax scaler? What you will do if there is a categorical variable?
+60. What types of model tend to overfit?
+61. What are some advantages and Disadvantages of regression models and tree based models.
+62. What are some important hyperparameters for XGBOOST
+63. Can you tell the complete life cycle of a data science project?
+64. What are the properties of a good ML model?
+65. What are the different evaluation metrices for a regression model?
+66. What are the different evaluation metrices for a classification model?
+67. Difference between R2 and adjusted R2? Why do you preffer adjusted r2?
+68. List some of the drawbacks of a Linear model
+69.      What do you mean by Curse of Dimensionality?
+70.      What do you mean by Bias variance tradeoff?
+71.      Explain Kernel trick in SVM
+72.      What is the main difference between Machine Learning and Data Mining?
+73. Why sometimes it is needed to scale or normalise features?
+74.      What is the difference between Type 1 and Type 2 error?
+75. What is the difference between a Generative model vs a Discriminative model?
+76.       Why binary_crossentropy and categorical_crossentropy give different performances for the same problem?
+77. Why does one hot encoding improve machine learning performance?
+78. Considering the long list of machine learning algorithm, given a data set, how do you decide which one to use?
+79. Differentiate between wide and tall data formats?
+80.      What is the difference between inductive machine learning and deductive machine learning?
+81. How will you know which machine learning algorithm to choose for your classification problem?
+82. What is the difference between Covariance and Correlation
+83. How will you find the correlation between a categorical variable and a continuous variable ?
+84. What are the differences between “Bayesian” and “Frequentist” approach for Machine Learning?
+85. What is the difference between stochastic gradient descent (SGD) and gradient descent ?
+86. What is the difference between Gaussian Mixture Model and K-Means Algorithm?
+87. Is more data always better?
+88. How can you determine which features are the most im- portant in your model?
+89. Which hyper-parameter tuning strategies (in general) do you know?
+90. How to select K for K-means?
+91. Describe the differences between and use cases for box plots and histograms
+92. How would you differentiate between Multilabel and MultiClass classification?
+93. What is KL divergence, how would you define its usecase in ML?
+94. Can you define the concept of Undersampling and Oversampling?
+95. Considering a Long List of Machine Learning Algorithms, given a Data Set, How Do You Decide Which One to Use?
+96. Explain the difference between Normalization and Standardization
+97. List the most popular distribution curves along with scenarios where you will use them in an algorithm.
+98.  List all types of popular recommendation systems?
+99. Which metrics can be used to measure correlation of categorical data?
+100. Which type of sampling is better for a classification model and why?
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-001. Parametric Learning Algorithm vs Non Parametric Learning Algorithms?
+
+[RESOURCE] https://sebastianraschka.com/faq/docs/parametric_vs_nonparametric.html
+
+Non-Parametric does not mean that they have NO parameters.
+On the contrary, non-parametric models (can) become more and more complex with an increasing amount of data.
+
+Example of Parametric Algorithms:
+    Linear Regression
+    Logistic Regression
+    Linear Support Vector Machines
+
+
+Example of Non-Parametric Algorithms:
+    K-nearest neighbor
+    Decision trees
+    RBF kernel SVMs
+
+
+So, in a parametric model, we have a finite number of parameters, and in nonparametric models, the number of parameters is (potentially) infinite. Or in other words, in nonparametric models, the complexity of the model grows with the number of training data; in parametric models, we have a fixed number of parameters (or a fixed structure if you will).
+
+Linear models such as linear regression, logistic regression, and linear Support Vector Machines are typical examples of a parametric “learners;” here, we have a fixed size of parameters (the weight coefficient.) In contrast, K-nearest neighbor, decision trees, or RBF kernel SVMs are considered as non-parametric learning algorithms since the number of parameters grows with the size of the training set. – K-nearest neighbor and decision trees, that makes sense, but why is an RBF kernel SVM non-parametric whereas a linear SVM is parametric? In the RBF kernel SVM, we construct the kernel matrix by computing the pair-wise distances between the training points, which makes it non-parametric.
+
+
+Q. How KNN is Non-Parametric Algo?
+
+----------------------------------------------------------------------------------------------------
+MIQ-003. Machine-Learning vs Deep-Learning?
+
+----------------------------------------------------------------------------------------------------
+MIQ-004. Machine-Learning vs Deep-Learning -> What to choose for a project?
+
+DeepLearning-Favour:
+    Preformance better than Machine Learning
+    Need to model Complex Problems (Complex relationships), and does not have domain knowledge to 
+    create rules/features. Example: Images, Sounds.
+
+
+DeepLearning-Against:
+    Requires Lagre dataset (large labeled data is costly)
+    Expensive (Hardware Cost, Taining Cost, and Training time).
+    Explainability/Interpretability
+
+----------------------------------------------------------------------------------------------------
+M1Q-005. Unreasonable Effectiveness of data?
+
+The phrase'unreasonable effectiveness of data' in machine learning refers to the remarkable ability 
+of large datasets to produce highly accurate models, even when the algorithms used to analyze them 
+are relatively simple.
+
+The reason that large datasets are so effective at driving feature learning is that they contain a 
+vast amount of information about the underlying patterns in the data.
+
+----------------------------------------------------------------------------------------------------
+M1Q-006. Active vs Passive Learning?
+
+https://www.geeksforgeeks.org/passive-and-active-learning-in-machine-learning/
+
+----------------------------------------------------------------------------------------------------
+M1Q-007. Semi-Supervised Learning (SSL)?
+
+https://www.ibm.com/topics/semi-supervised-learning
+
+----------------------------------------------------------------------------------------------------
+SIQ-001: Example of when False-Positive is more crucial than False-Negative and vice versa?
+
+False-Positive more crucial than False-Negative:
+    Spam Classification, when a legit email (Class-1/Class-Ture) is classified as Spam
+
+
+False-Nagative more crucial than False-Positive:
+    Medical Domain/Fraud Detection where we misclass a patient to be healthy.
+
+----------------------------------------------------------------------------------------------------
+MLIQ-001. What is Naive in Naive-Bayes?
+
+https://www.youtube.com/watch?v=m9UaxSQJQGQ&ab_channel=CampusX
+
+Naive-Bayes assumes that all the features are independent to each other, which does not really hold 
+in real world problems.
+
+----------------------------------------------------------------------------------------------------
+MLIQ-002. Lazy and Eager Learning?
+
+https://www.geeksforgeeks.org/what-is-the-difference-between-lazy-and-eager-learning/
+https://ai.plainenglish.io/lazy-vs-eager-learning-the-tortoise-and-the-hare-of-machine-learning-27ffb14f9c08
+
+Lazy learning, also known as instance-based learning or data-driven learning, defers the learning 
+process until the time of prediction.
+
+Lazy-Learning-Pros:
+    Adaptability to Complex Patterns: Lazy learning excels when the decision boundaries are complex 
+    and non-linear. New data points seamlessly integrate, requiring minimal retraining.
+
+    Continuous Learning: The model can adapt to new data points without requiring a retraining phase
+
+    Efficiency: They process relevant data for each prediction, saving resources.
+
+    Flexibility: Lazy learning allows for more flexibility in terms of data preprocessing and 
+    transformation, as it can be done on-the-fly during training.
+
+    Scalability: Lazy learning can be more scalable to large datasets, as it only processes the data 
+    that is needed for the current iteration of the training process.
+
+
+Lazy-Learning-Cons:
+    Computational Overhead: Prediction can be computationally expensive, especially with large 
+    datasets. Higher memory usage, storing all data can strain resources for large datasets.
+
+
+
+Example Lazy-Learner:
+    KNN
+
+Example Eager-Learner:
+    Linear-Regression
+    Decision-Trees
+
+----------------------------------------------------------------------------------------------------
+M1Q-011. Scenarios where Decision-Tree preferred over Random-Forest?
+
+https://www.youtube.com/watch?v=1pIrDi6puGs&ab_channel=CampusX
+
+Explainability
+Less-Expesive Computation
+Features Selection (When we want certain features to be in the model, as Random forest can drop them)
+
+----------------------------------------------------------------------------------------------------
+MLIQ-004. [Losigtic-Regression] Why Logistic Regression is called Regression?
+
+It works just like a regression, with a sigmoid function applied over it which translate the 
+real-valued output of regression function to [0-1] range probabilities, which can further be 
+classifed into classes using a threshold.
+
+----------------------------------------------------------------------------------------------------
+MIQ-012. Online vs Offline Machine Learning? Exmaples?
+
+Online machine learning means that learning takes place as data becomes available.
+
+----------------------------------------------------------------------------------------------------
