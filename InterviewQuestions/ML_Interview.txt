@@ -2,8 +2,6 @@ https://sebastianraschka.com/faq/
 https://docs.google.com/document/d/10XqvDZsXXqlpcgXS3kzkllNsZaPD11B_tr0mhN1DOcQ/edit#heading=h.9o5sd4yz3zkz
 https://www.analyticsvidhya.com/blog/2021/05/20-questions-to-test-your-skills-on-dimensionality-reduction-pca/
 https://alekhyo.medium.com/interview-questions-on-pca-9cdc96ddaa9f
-[SVM] https://rachelchen0104.medium.com/svm-aea183dd6ef6
-[SVM] https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
 https://github.com/youngjeong46/hands-on-machine-learning/blob/master/TrainingModelQuestions.md
 https://github.com/youngjeong46/hands-on-machine-learning/blob/master/MachineLearningQuestions.md
 
@@ -96,7 +94,7 @@ MLIQ-009. [CatBoost] Explain CatBoost?
 MLIQ-010. [Linear_Regression] Assumption of Linear-Regressions?
 MLIQ-011. [Recommendation-Engine] How to measure accuracy of a Recommendation-Engine?
 MLIQ-012. [Decision_Tree] Explain Pruning?
-MLIQ-013. [SVM] What are kernels in SVM? List some popular SVM kernels?
+
 MLIQ-014. [Decision_Tree] Gini Impurity vs Entropy? Which one is better and why?
 MLIQ-015. [PCA] Can PCA be used to reduce the dimensionality of a highly nonlinear dataset?
 MLIQ-016. [Linear_Regression] Importance of intercept term in a regression model?
@@ -104,16 +102,7 @@ MLIQ-017. [Cross_Validation] What is cross validation and its types?
 MLIQ-018. [Ridge_Regression] Why is Ridge Regression called Ridge?
 MLIQ-019. [PCA] Chaining two different dimensionality reduction algorithms?
 MLIQ-020. [Decision_Tree] If a Decision Tree is underfitting the training set, does feature scaling helps?
-MLIQ-021. [SVM] What is the fundamental idea behind Support Vector Machines?
-MLIQ-022. [SVM] What is a support vector?
-MLIQ-023. [SVM] Why is it important to scale the inputs when using SVMs?
-MLIQ-024. [SVM] Can an SVM classifier output a confidence score during classification? or Probability?
-MLIQ-025. [SVM] Should you use the primal or the dual form of the SVM problem to train a model on a training set with millions of instances and hundreds of features?
-MLIQ-026. [SVM] Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
-MLIQ-027. [SVM] How to train SVM on multi-class classification problem?
-MLIQ-028. [SVM] Explain Kernel trick in SVM?
-MLIQ-029. [SVM] What is the role of the 'Gamma' parameter in the RBF kernel, and how does it affect the SVM model?
-MLIQ-030. [SVM] How can you prevent overfitting when using the Kernel Trick in SVMs?
+
 MLIQ-031. [Linear_Regression] How do we interpret weights in linear regression?
 MLIQ-032. [Losigtic_Regression] How do you interpret weights in logistic regression?
 MLIQ-033. [Optimizer] Which Gradient Descent Algorithm will reach the vicinity of the optimal solution the fastest? Which will actually converge? How can you make the others converge as well?
@@ -121,6 +110,27 @@ MLIQ-034. [Lasso_Regression] How will you do feature selection using Lasso Regre
 MLIQ-035. [XGBoost] What are some important hyperparameters for XGBOOST?
 MLIQ-036. [OPtimizer] Difference between Stochastic-Gradient-Descent(SGD) & Gradient-Descent(Batch)?
 MLIQ-037. [K_Means] How to select K for K-means?
+
+
+[Solutions-At:MLNotes->SVM]
+SVM-001. [SVM] What are kernels in SVM? List some popular SVM kernels?
+SVM-002. [SVM] What is the fundamental idea behind Support Vector Machines?
+SVM-003. [SVM] What is a support vector?
+SVM-004. [SVM] Why is it important to scale the inputs when using SVMs?
+SVM-005. [SVM] Can an SVM classifier output a confidence score during classification? or Probability?
+SVM-006. [SVM] Should you use the primal or the dual form of the SVM problem to train a model on a training set with millions of instances and hundreds of features?
+SVM-007. [SVM] Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
+SVM-008. [SVM] How to train SVM on multi-class classification problem?
+SVM-009. [SVM] Explain Kernel trick in SVM?
+SVM-010. [SVM] What is the role of the 'Gamma' parameter in the RBF kernel, and how does it affect the SVM model?
+SVM-011. [SVM] How can you prevent overfitting when using the Kernel Trick in SVMs?
+SVM-011. [SVM] Does SVM face issues with large datasets? What/Why are those issues?
+SVM-012. [SVM] Combining SVM and SGD?
+SVM-013. [SVM] LinearSVC is much faster than SVC(kernel='linear'), especially if the training set is very large or if it has plenty of features?
+SVM-014. [SVM] How should you set the QP parameters (H, f, A, and b) to solve the soft margin linear SVM classifier problem using an off-the-shelf QP solver?
+SVM-015. [SVM] Train a LinearSVC on a linearly separable dataset. Then train an SVC and a SGDClassifier on the same dataset. See if you can get them to produce roughly the same model?
+SVM-016. [SVM] Hard Margin vs Soft Margin?
+
 
 DeepLearning-IQ
 
@@ -568,17 +578,6 @@ of the effectiveness of the binary classification model.
 It plots the true positive rate (TPR) vs the false positive rate (FPR) at different classification 
 thresholds.
 
-
-----------------------------------------------------------------------------------------------------
-MLIQ-013. [SVM] What are kernels in SVM? List some popular SVM kernels?
-
-https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
-
-1. Linear Kernel
-2. Polynomial Kernel
-3. Radial Basis Function (RBF) Kernel
-4. Sigmoid Kernel
-
 ----------------------------------------------------------------------------------------------------
 MLIQ-014. [Decision_Tree] Gini Impurity vs Entropy? Which one is better and why?
 
@@ -736,103 +735,6 @@ MLIQ-020. [Decision_Tree] If a Decision Tree is underfitting the training set, d
 No, scaling the input features is generally not necessary to fix underfitting in a decision tree. 
 Decision trees are not sensitive to feature scaling because their splits don't change with any 
 monotonic transformation.
-
-
-----------------------------------------------------------------------------------------------------
-MLIQ-021. [SVM] What is the fundamental idea behind Support Vector Machines?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-The fundamental idea behind Support Vector Machines is to fit the widest possible “street” between 
-the classes. In other words, the goal is to have the largest possible margin between the decision 
-boundary that separates the two classes and the training instances. When performing soft margin 
-classification, the SVM searches for a compromise between perfectly separating the two classes and 
-having the widest possible street (i.e., a few instances may end up on the street). Another key idea
-is to use kernels when training on nonlinear datasets.
-
-----------------------------------------------------------------------------------------------------
-MLIQ-022. [SVM] What is a support vector?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-After training an SVM, a support vector is any instance located on the “street”, including its 
-border. The decision boundary is entirely determined by the support vectors. Any instance that is 
-not a support vector (i.e., off the street) has no influence whatsoever; you could remove them, add 
-more instances, or move them around, and as long as they stay off the street they won’t affect the 
-decision boundary. Computing the predictions only involve the support vectors, not the whole 
-training set.
-
-----------------------------------------------------------------------------------------------------
-MLIQ-023. [SVM] Why is it important to scale the inputs when using SVMs?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-SVMs try to fit the largest possible “street” between the classes (see the first answer), so if the 
-training set is not scaled, the SVM will tend to neglect small features.
-
-----------------------------------------------------------------------------------------------------
-MLIQ-024. [SVM] Can an SVM classifier output a confidence score during classification? or Probability?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-An SVM classifier can output the distance between the test instance and the decision boundary, and 
-you can use this as a confidence score. However, this score cannot be directly converted into an 
-estimation of the class probability. If you set probability=True when creating an SVM in 
-Scikit-Learn, then after training it will calibrate the probabilities using Logistic Regression on 
-the SVM’s scores (trained by an additional five-fold cross-validation on the training data). This 
-will add the predict_proba() and predict_log_proba() methods to the SVM.
-
-----------------------------------------------------------------------------------------------------
-MLIQ-025. [SVM] Should you use the primal or the dual form of the SVM problem to train a model on a training set with millions of instances and hundreds of features?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-This question applies only to linear SVMs since kernelized can only use the dual form. The 
-computational complexity of the primal form of the SVM problem is proportional to the number of 
-training instances m, while the computational complexity of the dual form is proportional to a 
-number between m2 and m3. So if there are millions of instances, you should definitely use the 
-primal form, because the dual form will be much too slow.
-
-----------------------------------------------------------------------------------------------------
-MLIQ-026. [SVM] Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-If an SVM classifier trained with an RBF kernel underfits the training set, there might be too much 
-regularization. To decrease it, you need to increase gamma or C (or both).
-
-----------------------------------------------------------------------------------------------------
-MLIQ-027. [SVM] How to train SVM on multi-class classification problem?
-
-https://rachelchen0104.medium.com/svm-aea183dd6ef6
-
-Train an SVM classifier on the MNIST dataset. Since SVM classifiers are binary classifiers, you will
-need to use one-versus-all to classify all 10 digits. You may want to tune the hyperparameters using
-small validation sets to speed up the process. What accuracy can you reach?
-
-----------------------------------------------------------------------------------------------------
-MLIQ-028. [SVM] Explain Kernel trick in SVM?
-
-https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
-https://www.geeksforgeeks.org/kernel-trick-in-support-vector-classification/
-
-This technique enables the SVM to identify a hyperplane that separates the data with the maximum 
-margin, even when the data is not linearly separable in its original space. The kernel functions 
-are used to compute the inner product between pairs of points in the transformed feature space 
-without explicitly computing the transformation itself. This makes it computationally efficient to 
-deal with high dimensional feature spaces.
-
-The kernel trick relies on the inner products of vectors. For SVMs, the decision function is based 
-on the dot products of vectors within the input space. Kernel functions replace these dot products 
-with a non-linear function that computes a dot product in a higher-dimensional space. Importantly, 
-the computation of this dot product via the kernel function does not require explicit knowledge of 
-the coordinates in the higher space, thus saving computational resources and time.
-
-----------------------------------------------------------------------------------------------------
-MLIQ-029. [SVM] What is the role of the 'Gamma' parameter in the RBF kernel, and how does it affect the SVM model?
-MLIQ-030. [SVM] How can you prevent overfitting when using the Kernel Trick in SVMs?
-
-https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
 
 ----------------------------------------------------------------------------------------------------
 MLIQ-031. [Linear_Regression] How do we interpret weights in linear regression?
