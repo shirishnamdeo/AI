@@ -1,5 +1,10 @@
 https://sebastianraschka.com/faq/
 https://docs.google.com/document/d/10XqvDZsXXqlpcgXS3kzkllNsZaPD11B_tr0mhN1DOcQ/edit#heading=h.9o5sd4yz3zkz
+https://www.analyticsvidhya.com/blog/2021/05/20-questions-to-test-your-skills-on-dimensionality-reduction-pca/
+https://alekhyo.medium.com/interview-questions-on-pca-9cdc96ddaa9f
+
+
+https://www.youtube.com/@AppliedAICourse
 
 ----------------------------------------------------------------------------------------------------
 
@@ -16,12 +21,41 @@ M1Q-009. Out-Of-Bag (OOB) Error/Estimates?
 M1Q-010. Out-Of-Bag vs Cross-Validation?
 M1Q-011. Scenarios where Decision-Tree preferred over Random-Forest?
 MIQ-012. Online vs Offline Machine Learning? Exmaples?
+MIQ-013. No-Free-Lunch Theorem?
+MIQ-014. Incremental Learning? List of supported algorithms?
+MIQ-015. Out-Of-Core Machine Learning?
+MIQ-016. Structured vs Unstructured Data?
+MIQ-017. Bagging (Bootstrap Aggregating) vs Boosting?
+MIQ-018. How to measure the accuracy of a Clustering Algorithm?
+MIQ-019. Lazy and Eager Learning?
+MIQ-020. What is Matrix Factorization in ML? Where it it used?
+MIQ-021. What is ALS Alternate Least Square?
+MIQ-022. Matrix factorisation using side information?
+MIQ-023. How to deal with Imbalance Dataset?
+MIQ-024. Ways to make model more robust to outliers?
+MIQ-025. What is Data Leakage? How to reduce it?
+MIQ-026. Normalization vs Standardization?
+MIQ-027. Evaluate preformance of dimensionality reduction algorithm?
+MIQ-028. How to detect Multicolinearity?
+MIQ-029. How to avoid Multicolinearity?
+MIQ-030. Ways to reduce Overfitting?
+MIQ-031. Types of bias in Machine Learning?
+MIQ-032. Categorical feature with high cardinality?
+MIQ-033. What is ROC-AUC curve? List some of it’s benefits.
 
 MachineLearning-IQ
-MLIQ-001. What is Naive in Naive-Bayes?
-MLIQ-002. Lazy and Eager Learning?
+MLIQ-001. [Naive-Bayes] What is Naive in Naive-Bayes?
 MLIQ-003. [KNN] Why KNN is known as a Lazy-Learner?
 MLIQ-004. [Losigtic-Regression] Why Logistic Regression is called Regression?
+MLIQ-005. [GBM] Explain Gredient-Boosting?
+MLIQ-006. [AdaBoost] Explain Adaptive-Boosting?
+MLIQ-007. [XGBoost] Explain Extreme-Gredient-Boosting?
+MLIQ-008. [LightGBM] Explain LightGBM?
+MLIQ-009. [CatBoost] Explain CatBoost?
+MLIQ-010. [Linear-Regression] Assumption of Linear-Regressions?
+MLIQ-011. [Recommendation-Engine] How to measure accuracy of a Recommendation-Engine?
+MLIQ-012. [Decision-Tree] Explain Pruning?
+MLIQ-013. [SVM] What are kernels in SVM? List some popular SVM kernels?
 
 DeepLearning-IQ
 
@@ -29,80 +63,109 @@ DeepLearning-IQ
 Statistics-IQ
 SIQ-001: Example of when False-Positive is more crucial than False-Negative and vice versa?
 SIQ-002: Example where Median is a better measure than the Mean?
+SIQ-003. Probability vs Likelihood?
+
+Scenario-Based-IQ
+SBIQ-001. Imagine you are woking with a laptop of 2GB RAM, how would you process a dataset of 10GB?
 
 ----------------------------------------------------------------------------------------------------
 
-14. What is No Free Lunch Theorem?
-15. Imagine you are woking with a laptop of 2GB RAM, how would you process a dataset of 10GB?
-16. What are the main differences between Structured and Unstructured Data?
-17. What are the main points of difference between Bagging and Boosting?
-18. What are the assumptions of linear regression?
-19. How do you measure the accuracy of a Clustering Algorithm?
-20. What is Matrix Factorization and where is it used in Machine Learning?
-21. What is an Imbalanced Dataset and how can one deal with this problem?
-22. How do you measure the accuracy of a recommendation engine?
-23. What are some ways to make your model more robust to outliers?
-24. How can you measure the performance of a dimensionality reduction algorithm on your dataset?
-25. What is Data Leakage? List some ways using which you can overcome this problem.
-26. What is Multicollinearity? How to detect it? List some techniques to overcome Multicollinearity.
-27. List some ways using which you can reduce overfitting in a model.
-28. What are the different types of bias in Machine Learning?
-29. How do you approach a categorical feature with high cardinality?
-30. Explain Pruning in Decision Trees and how it is done
-31. What is ROC-AUC curve? List some of it’s benefits.
-32. What are kernels in SVM? Can you list some popular SVM kernels.
 33. What is the difference between Gini Impurity and Entropy? Which one is better and why?
+
 34. Why does L2 regularization give sparse coefficients?
+
 35. List some ways using which you can improve a model’s performance.
+
 36. Can PCA be used to reduce the dimensionality of a highly nonlinear dataset?
-37. What’s the difference between probability and likelihood?
+
 38. What cross-validation technique would you use on a time series data set.
+
 39. Once a dataset’s dimensionality has been reduced, is it possible to reverse the operation? If so, how? If not, why?
+
 40. Why do we always need the intercept term in a regression model??
+
 41. When Your Dataset Is Suffering From High Variance, How Would You Handle It?
+
 42. Which Among These Is More Important Model Accuracy Or Model Performance?
+
 43. What is active learning and where is it useful?
+
 44. Why is Ridge Regression called Ridge?
+
 45. State the differences between causality and correlation?
+
 46. Does it make any sense to chain two different dimensionality reduction algorithms?
-47. Is it possible to speed up training of a bagging ensemble by distributing it across multiple servers?
+
+
 48. If a Decision Tree is underfitting the training set, is it a good idea to try scaling the input features?
+
 49. Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
+
 50. What is cross validation and its types?
+
 51. How do we interpret weights in linear models?
+
 52. Which Gradient Descent algorithm (among those we discussed) will reach the vicinity of the optimal solution the fastest? Which will actually converge?
+
 53. Why is it important to scale the inputs when using SVMs?
+
 54. What is p value and why is it important?
+
 55. What is OvR and OvO for multiclass classification and which machine learning algorithm supports this
+
 56. How will you do feature selection using Lasso Regression?
+
 57. What is the difference between loss function and cost function?
+
 58. What are the common ways to handle missing data in a dataset?
+
 59. What is the difference between standard scaler and minmax scaler? What you will do if there is a categorical variable?
+
 60. What types of model tend to overfit?
+
 61. What are some advantages and Disadvantages of regression models and tree based models.
+
 62. What are some important hyperparameters for XGBOOST
+
 63. Can you tell the complete life cycle of a data science project?
+
 64. What are the properties of a good ML model?
+
 65. What are the different evaluation metrices for a regression model?
+
 66. What are the different evaluation metrices for a classification model?
+
 67. Difference between R2 and adjusted R2? Why do you preffer adjusted r2?
+
 68. List some of the drawbacks of a Linear model
 69.      What do you mean by Curse of Dimensionality?
 70.      What do you mean by Bias variance tradeoff?
 71.      Explain Kernel trick in SVM
 72.      What is the main difference between Machine Learning and Data Mining?
+
 73. Why sometimes it is needed to scale or normalise features?
-74.      What is the difference between Type 1 and Type 2 error?
+
+74. What is the difference between Type 1 and Type 2 error?
+
 75. What is the difference between a Generative model vs a Discriminative model?
-76.       Why binary_crossentropy and categorical_crossentropy give different performances for the same problem?
+
+76. Why binary_crossentropy and categorical_crossentropy give different performances for the same problem?
+
 77. Why does one hot encoding improve machine learning performance?
+How One-Hot-Encoding induce correlation?
+
 78. Considering the long list of machine learning algorithm, given a data set, how do you decide which one to use?
 79. Differentiate between wide and tall data formats?
 80.      What is the difference between inductive machine learning and deductive machine learning?
+
 81. How will you know which machine learning algorithm to choose for your classification problem?
+
 82. What is the difference between Covariance and Correlation
+
 83. How will you find the correlation between a categorical variable and a continuous variable ?
+
 84. What are the differences between “Bayesian” and “Frequentist” approach for Machine Learning?
+
 85. What is the difference between stochastic gradient descent (SGD) and gradient descent ?
 86. What is the difference between Gaussian Mixture Model and K-Means Algorithm?
 87. Is more data always better?
@@ -114,7 +177,7 @@ SIQ-002: Example where Median is a better measure than the Mean?
 93. What is KL divergence, how would you define its usecase in ML?
 94. Can you define the concept of Undersampling and Oversampling?
 95. Considering a Long List of Machine Learning Algorithms, given a Data Set, How Do You Decide Which One to Use?
-96. Explain the difference between Normalization and Standardization
+
 97. List the most popular distribution curves along with scenarios where you will use them in an algorithm.
 98.  List all types of popular recommendation systems?
 99. Which metrics can be used to measure correlation of categorical data?
@@ -204,7 +267,7 @@ Naive-Bayes assumes that all the features are independent to each other, which d
 in real world problems.
 
 ----------------------------------------------------------------------------------------------------
-MLIQ-002. Lazy and Eager Learning?
+MIQ-019. Lazy and Eager Learning?
 
 https://www.geeksforgeeks.org/what-is-the-difference-between-lazy-and-eager-learning/
 https://ai.plainenglish.io/lazy-vs-eager-learning-the-tortoise-and-the-hare-of-machine-learning-27ffb14f9c08
@@ -259,6 +322,276 @@ classifed into classes using a threshold.
 ----------------------------------------------------------------------------------------------------
 MIQ-012. Online vs Offline Machine Learning? Exmaples?
 
-Online machine learning means that learning takes place as data becomes available.
+https://www.qwak.com/post/online-vs-offline-machine-learning-whats-the-difference
+https://medium.com/value-stream-design/online-machine-learning-515556ff72c5
 
+
+Online machine learning means that learning takes place as data becomes available.
+Online learning is ideal for machine learning systems that receive data as a continuous flow and 
+need to be able to adapt to rapidly changing conditions. 
+Also useful when resources are limited.
+
+Only algorithms having partial_fit methods to incrementally train support online learning.
+
+----------------------------------------------------------------------------------------------------
+MIQ-013. No-Free-Lunch Theorem?
+
+https://machinelearningmastery.com/no-free-lunch-theorem-for-machine-learning/
+
+The theorem states that all optimization algorithms perform equally well when their performance is 
+averaged across all possible problems.
+
+----------------------------------------------------------------------------------------------------
+SBIQ-001. Imagine you are woking with a laptop of 2GB RAM, how would you process a dataset of 10GB?
+
+Online-ML Alrorithms
+Sub-Sampling of dataset (to train only on a sub-set of data). Will lose important information.
+Using Cloud Computing (if allowed)
+
+Out-Of-Core ML
+
+----------------------------------------------------------------------------------------------------
+MIQ-014. Incremental Learning? List of supported algorithms?
+
+https://www.datacamp.com/blog/what-is-incremental-learning
+
+Needs data readers (for streaming data)
+
+
+
+https://www.ibm.com/docs/en/cloud-paks/cp-data/4.8.x?topic=pipelines-incremental-learning-details
+
+Algorithms for classification models that support incremental learning
+    ExtraTreesClassifier
+    XGBClassifier
+    LGBMClassifier
+    RandomForestClassifier
+    SnapRandomForestClassifier
+    SnapBoostingMachineClassifier
+
+Algorithms for regression models that support incremental learning
+    ExtraTreesRegressor
+    LGBMRegressor
+    RandomForestRegressor
+    SnapBoostingMachineRegressor
+    SnapRandomForestRegressor
+    XGBRegressor
+
+----------------------------------------------------------------------------------------------------
+MIQ-017. Bagging (Bootstrap Aggregating) vs Boosting?
+
+
+Bagging
+    Aim to decrease variance, not bias.
+    Each model receives equal weight.
+    Each model is built independently.
+    Different training data subsets are selected using row sampling with replacement and random 
+    sampling methods from the entire training dataset.
+    Bagging tries to solve the over-fitting problem.
+    Classifiers are trained parallelly.
+
+Boosting
+    Aim to decrease bias, not variance.
+    Models are weighted according to their performance.
+    New models are influenced by the performance of previously built models.
+    Every new subset contains the elements that were misclassified by previous models.
+    Boosting tries to reduce bias.
+    Classifiers are trained sequentially.
+
+
+----------------------------------------------------------------------------------------------------
+MLIQ-010. [Linear-Regression] Assumption of Linear-Regressions?
+
+1. Linear-Model
+2. No-Multicolinearlity
+3. Homoscedasticity of Residuals or Equal Variances
+4. No Autocorrelation in residuals
+5. Predictors are distributed Normall
+
+6. Each observation is unique
+5. Number of observations Greater than the number of predictorsy
+
+----------------------------------------------------------------------------------------------------
+MIQ-018. How to measure the accuracy of a Clustering Algorithm?
+
+https://medium.com/@divine_inner_voice/cracking-the-code-of-clustering-accuracy-metrics-unveiled-fe4e13f6940a
+
+Silhouette Score
+Adjusted Rand Index (ARI)
+
+----------------------------------------------------------------------------------------------------
+MIQ-020. What is Matrix Factorization in ML? Where it it used?
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-022. Matrix factorisation using side information?
+
+https://www.youtube.com/watch?v=HdI5lmOKNTs&ab_channel=AppliedAICourse
+
+----------------------------------------------------------------------------------------------------
+MIQ-023. How to deal with Imbalance Dataset?
+
+Over-Sampline
+Under-Sampling
+SMOTE (Synthetic Minority Oversampling Technique)
+
+Threshold Moving
+
+BalancedBaggingClassifier
+
+----------------------------------------------------------------------------------------------------
+MIQ-024. Ways to make model more robust to outliers?
+
+https://www.kdnuggets.com/2018/08/make-machine-learning-models-robust-outliers.html
+
+Winsorizing
+This method involves setting the extreme values of an attribute to some specified value.
+
+Log-Scale Transformation
+Binning
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-025. What is Data Leakage? How to reduce it?
+
+https://builtin.com/machine-learning/data-leakage
+
+In short, data leakage in machine learning is a term used to describe a case where the data used to 
+train an algorithm includes unexpected additional information about the subject it’s evaluating.
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-027. Evaluate preformance of dimensionality reduction algorithm?
+
+https://www.linkedin.com/advice/0/how-can-you-evaluate-dimensionality-reduction-ygrwf
+
+1. Data reconstruction error
+2. Data compression ratio
+3. Data visualization quality
+4. Data classification accuracy[vs before the dimensionalityR, in case of supervised classification]
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-028. How to detect Multicolinearity?
+
+https://www.theanalysisfactor.com/eight-ways-to-detect-multicollinearity/
+
+1. VIF
+2. Examining Correlation Matrix
+3. Eigenvalue decomposition of the correlation matrix.
+
+----------------------------------------------------------------------------------------------------
+MIQ-029. How to avoid Multicolinearity?
+
+
+Alternatively, you can use a different regression technique such as ridge regression or principal 
+component regression that is better equipped to handle multicollinearity than ordinary least squares 
+regression. 
+
+----------------------------------------------------------------------------------------------------
+MIQ-030. Ways to reduce Overfitting?
+
+https://towardsdatascience.com/8-simple-techniques-to-prevent-overfitting-4d443da2ef7d
+
+
+1. Early Stopping
+2. Pruning 
+3. Feature Selection
+4. Regularization
+5. Ensembling
+6. Cross-Validation
+7. Data Augmentation
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-031. Types of bias in Machine Learning?
+
+https://www.kdnuggets.com/2019/08/types-bias-machine-learning.html
+
+1. Sample Bias
+2. Prejudice Bias
+3. Confirmation Bias
+4. Group attribution Bias
+
+https://www.taus.net/resources/blog/9-types-of-data-bias-in-machine-learning
+Selection Bias
+Measurement Bias (and more)
+
+----------------------------------------------------------------------------------------------------
+MIQ-032. Categorical feature with high cardinality?
+
+https://stackoverflow.com/questions/61585507/how-to-encode-a-categorical-feature-with-high-cardinality
+https://towardsdatascience.com/4-ways-to-encode-categorical-features-with-high-cardinality-1bc6d8fd7b13
+https://stats.stackexchange.com/questions/411767/encoding-of-categorical-variables-with-high-cardinality
+https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159
+
+Target Encoding
+Count Encoding
+Feature hashing
+Embedding
+
+
+
+https://www.linkedin.com/advice/0/how-do-you-deal-categorical-features-high-cardinality
+Grouping by Frequency
+Grouping by Similarity
+Grouping by Target
+
+----------------------------------------------------------------------------------------------------
+MLIQ-012. [Decision-Tree] Explain Pruning?
+
+Minimum Leaf Size
+
+
+Types:
+Pre-Pruning (Early Stopping)
+    Maximum Depth
+    Minimum Samples per leaf
+    Minimum Samples per split
+    Maximum Features
+
+Post-Pruning (Reducing Nodes)
+    Cost-Complexity Pruning (CCP)
+    Reduced Error Pruning
+    Minimum Impurity Decrease
+    Minimum Leaf Size
+
+----------------------------------------------------------------------------------------------------
+MIQ-033. What is ROC-AUC curve? List some of it’s benefits.
+
+https://www.youtube.com/watch?v=4jRBRDbJemM&ab_channel=StatQuestwithJoshStarmer
+
+
+ROC stands for Receiver Operating Characteristics, and the ROC curve is the graphical representation 
+of the effectiveness of the binary classification model. 
+It plots the true positive rate (TPR) vs the false positive rate (FPR) at different classification 
+thresholds.
+
+
+----------------------------------------------------------------------------------------------------
+MLIQ-013. [SVM] What are kernels in SVM? List some popular SVM kernels?
+
+
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
