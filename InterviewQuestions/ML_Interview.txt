@@ -2,6 +2,16 @@ https://sebastianraschka.com/faq/
 https://docs.google.com/document/d/10XqvDZsXXqlpcgXS3kzkllNsZaPD11B_tr0mhN1DOcQ/edit#heading=h.9o5sd4yz3zkz
 https://www.analyticsvidhya.com/blog/2021/05/20-questions-to-test-your-skills-on-dimensionality-reduction-pca/
 https://alekhyo.medium.com/interview-questions-on-pca-9cdc96ddaa9f
+[SVM] https://rachelchen0104.medium.com/svm-aea183dd6ef6
+[SVM] https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
+https://github.com/youngjeong46/hands-on-machine-learning/blob/master/TrainingModelQuestions.md
+https://github.com/youngjeong46/hands-on-machine-learning/blob/master/MachineLearningQuestions.md
+
+https://github.com/youngjeong46/hands-on-machine-learning/blob/master/classification.ipynb
+https://github.com/youngjeong46/hands-on-machine-learning/blob/master/Housing.ipynb
+
+https://stats.stackexchange.com/questions/359015/ridge-lasso-standardization-of-dummy-indicators
+https://stats.stackexchange.com/questions/399430/does-categorical-variable-need-normalization-standardization
 
 
 https://www.youtube.com/@AppliedAICourse
@@ -42,20 +52,75 @@ MIQ-030. Ways to reduce Overfitting?
 MIQ-031. Types of bias in Machine Learning?
 MIQ-032. Categorical feature with high cardinality?
 MIQ-033. What is ROC-AUC curve? List some of it’s benefits.
+MIQ-034. Why does L1 regularization give sparse coefficients?
+MIQ-035. Ways to improve a model’s performance?
+MIQ-036. What cross-validation technique would you use on a time series data set?
+MIQ-037. Once a dataset’s dimensionality has been reduced, is it possible to reverse the operation?
+MIQ-038. When Your Dataset Is Suffering From High Variance, How Would You Handle It?
+MIQ-039. Overcome high Bias?
+MIQ-040. Model Accuracy vs Model Performance? Which is important?
+MIQ-041. Causation vs Correlation?
+MIQ-042. Standard-Scaler vs Minmax-Scaler?
+MIQ-043. What is OvR and OvO for multiclass classification and which machine learning algorithm supports this?
+MIQ-044. When will be OVO method better than OVR method in multi-class SVM?
+MIQ-045. What is the difference between loss function and cost function? Objective function?
+MIQ-046. What are the common ways to handle missing data in a dataset?
+MIQ-047. How to perform standardization for categorical variable?
+MIQ-048. Which type of sampling is better for a classification model and why?
+MIQ-049. Difference between Covariance and Correlation?
+MIQ-050. List all types of popular recommendation systems?
+MIQ-051. What types of model tend to overfit?
+MIQ-052. What are some advantages and disadvantages of regression models?
+MIQ-053. What are some advantages and disadvantages of tree based models?
+MIQ-054. Describe complete life cycle of a data science project?
+MIQ-055. What are the properties of a good ML model?
+MIQ-056. Different evaluation metrices for a regression model?
+MIQ-057. Different evaluation metrices for a classificaion model?
+MIQ-058. Why does one hot encoding improve machine learning performance?
+MIQ-059. What is Dummy variable trap?
+MIQ-060. Which metrics can be used to measure correlation of categorical data?
+MIQ-061. Why binary_crossentropy and categorical_crossentropy give different performances for the same problem?
+MIQ-062. Why sometimes it is needed to scale or normalise features?
+MIQ-063. Difference between Multilabel and MultiClass classification?
+MIQ-064. What is KL divergence, how would you define its usecase in ML?
 
 MachineLearning-IQ
-MLIQ-001. [Naive-Bayes] What is Naive in Naive-Bayes?
+MLIQ-001. [Naive_Bayes] What is Naive in Naive-Bayes?
 MLIQ-003. [KNN] Why KNN is known as a Lazy-Learner?
-MLIQ-004. [Losigtic-Regression] Why Logistic Regression is called Regression?
+MLIQ-004. [Losigtic_Regression] Why Logistic Regression is called Regression?
 MLIQ-005. [GBM] Explain Gredient-Boosting?
 MLIQ-006. [AdaBoost] Explain Adaptive-Boosting?
 MLIQ-007. [XGBoost] Explain Extreme-Gredient-Boosting?
 MLIQ-008. [LightGBM] Explain LightGBM?
 MLIQ-009. [CatBoost] Explain CatBoost?
-MLIQ-010. [Linear-Regression] Assumption of Linear-Regressions?
+MLIQ-010. [Linear_Regression] Assumption of Linear-Regressions?
 MLIQ-011. [Recommendation-Engine] How to measure accuracy of a Recommendation-Engine?
-MLIQ-012. [Decision-Tree] Explain Pruning?
+MLIQ-012. [Decision_Tree] Explain Pruning?
 MLIQ-013. [SVM] What are kernels in SVM? List some popular SVM kernels?
+MLIQ-014. [Decision_Tree] Gini Impurity vs Entropy? Which one is better and why?
+MLIQ-015. [PCA] Can PCA be used to reduce the dimensionality of a highly nonlinear dataset?
+MLIQ-016. [Linear_Regression] Importance of intercept term in a regression model?
+MLIQ-017. [Cross_Validation] What is cross validation and its types?
+MLIQ-018. [Ridge_Regression] Why is Ridge Regression called Ridge?
+MLIQ-019. [PCA] Chaining two different dimensionality reduction algorithms?
+MLIQ-020. [Decision_Tree] If a Decision Tree is underfitting the training set, does feature scaling helps?
+MLIQ-021. [SVM] What is the fundamental idea behind Support Vector Machines?
+MLIQ-022. [SVM] What is a support vector?
+MLIQ-023. [SVM] Why is it important to scale the inputs when using SVMs?
+MLIQ-024. [SVM] Can an SVM classifier output a confidence score during classification? or Probability?
+MLIQ-025. [SVM] Should you use the primal or the dual form of the SVM problem to train a model on a training set with millions of instances and hundreds of features?
+MLIQ-026. [SVM] Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
+MLIQ-027. [SVM] How to train SVM on multi-class classification problem?
+MLIQ-028. [SVM] Explain Kernel trick in SVM?
+MLIQ-029. [SVM] What is the role of the 'Gamma' parameter in the RBF kernel, and how does it affect the SVM model?
+MLIQ-030. [SVM] How can you prevent overfitting when using the Kernel Trick in SVMs?
+MLIQ-031. [Linear_Regression] How do we interpret weights in linear regression?
+MLIQ-032. [Losigtic_Regression] How do you interpret weights in logistic regression?
+MLIQ-033. [Optimizer] Which Gradient Descent Algorithm will reach the vicinity of the optimal solution the fastest? Which will actually converge? How can you make the others converge as well?
+MLIQ-034. [Lasso_Regression] How will you do feature selection using Lasso Regression?
+MLIQ-035. [XGBoost] What are some important hyperparameters for XGBOOST?
+MLIQ-036. [OPtimizer] Difference between Stochastic-Gradient-Descent(SGD) & Gradient-Descent(Batch)?
+MLIQ-037. [K_Means] How to select K for K-means?
 
 DeepLearning-IQ
 
@@ -64,125 +129,51 @@ Statistics-IQ
 SIQ-001: Example of when False-Positive is more crucial than False-Negative and vice versa?
 SIQ-002: Example where Median is a better measure than the Mean?
 SIQ-003. Probability vs Likelihood?
+SIQ-004. What is P-value and its important?
+SIQ-005. Difference between Type 1 and Type 2 error?
 
 Scenario-Based-IQ
 SBIQ-001. Imagine you are woking with a laptop of 2GB RAM, how would you process a dataset of 10GB?
 
 ----------------------------------------------------------------------------------------------------
 
-33. What is the difference between Gini Impurity and Entropy? Which one is better and why?
-
-34. Why does L2 regularization give sparse coefficients?
-
-35. List some ways using which you can improve a model’s performance.
-
-36. Can PCA be used to reduce the dimensionality of a highly nonlinear dataset?
-
-38. What cross-validation technique would you use on a time series data set.
-
-39. Once a dataset’s dimensionality has been reduced, is it possible to reverse the operation? If so, how? If not, why?
-
-40. Why do we always need the intercept term in a regression model??
-
-41. When Your Dataset Is Suffering From High Variance, How Would You Handle It?
-
-42. Which Among These Is More Important Model Accuracy Or Model Performance?
-
-43. What is active learning and where is it useful?
-
-44. Why is Ridge Regression called Ridge?
-
-45. State the differences between causality and correlation?
-
-46. Does it make any sense to chain two different dimensionality reduction algorithms?
-
-
-48. If a Decision Tree is underfitting the training set, is it a good idea to try scaling the input features?
-
-49. Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
-
-50. What is cross validation and its types?
-
-51. How do we interpret weights in linear models?
-
-52. Which Gradient Descent algorithm (among those we discussed) will reach the vicinity of the optimal solution the fastest? Which will actually converge?
-
-53. Why is it important to scale the inputs when using SVMs?
-
-54. What is p value and why is it important?
-
-55. What is OvR and OvO for multiclass classification and which machine learning algorithm supports this
-
-56. How will you do feature selection using Lasso Regression?
-
-57. What is the difference between loss function and cost function?
-
-58. What are the common ways to handle missing data in a dataset?
-
-59. What is the difference between standard scaler and minmax scaler? What you will do if there is a categorical variable?
-
-60. What types of model tend to overfit?
-
-61. What are some advantages and Disadvantages of regression models and tree based models.
-
-62. What are some important hyperparameters for XGBOOST
-
-63. Can you tell the complete life cycle of a data science project?
-
-64. What are the properties of a good ML model?
-
-65. What are the different evaluation metrices for a regression model?
-
-66. What are the different evaluation metrices for a classification model?
-
 67. Difference between R2 and adjusted R2? Why do you preffer adjusted r2?
 
-68. List some of the drawbacks of a Linear model
-69.      What do you mean by Curse of Dimensionality?
-70.      What do you mean by Bias variance tradeoff?
-71.      Explain Kernel trick in SVM
-72.      What is the main difference between Machine Learning and Data Mining?
+69. What do you mean by Curse of Dimensionality?
 
-73. Why sometimes it is needed to scale or normalise features?
+70. What do you mean by Bias variance tradeoff?
 
-74. What is the difference between Type 1 and Type 2 error?
+72. What is the main difference between Machine Learning and Data Mining?
 
 75. What is the difference between a Generative model vs a Discriminative model?
 
-76. Why binary_crossentropy and categorical_crossentropy give different performances for the same problem?
-
-77. Why does one hot encoding improve machine learning performance?
-How One-Hot-Encoding induce correlation?
-
 78. Considering the long list of machine learning algorithm, given a data set, how do you decide which one to use?
+
 79. Differentiate between wide and tall data formats?
-80.      What is the difference between inductive machine learning and deductive machine learning?
+
+80. What is the difference between inductive machine learning and deductive machine learning?
 
 81. How will you know which machine learning algorithm to choose for your classification problem?
-
-82. What is the difference between Covariance and Correlation
 
 83. How will you find the correlation between a categorical variable and a continuous variable ?
 
 84. What are the differences between “Bayesian” and “Frequentist” approach for Machine Learning?
 
-85. What is the difference between stochastic gradient descent (SGD) and gradient descent ?
 86. What is the difference between Gaussian Mixture Model and K-Means Algorithm?
+
 87. Is more data always better?
+
 88. How can you determine which features are the most im- portant in your model?
+
 89. Which hyper-parameter tuning strategies (in general) do you know?
-90. How to select K for K-means?
+
 91. Describe the differences between and use cases for box plots and histograms
-92. How would you differentiate between Multilabel and MultiClass classification?
-93. What is KL divergence, how would you define its usecase in ML?
+
 94. Can you define the concept of Undersampling and Oversampling?
+
 95. Considering a Long List of Machine Learning Algorithms, given a Data Set, How Do You Decide Which One to Use?
 
 97. List the most popular distribution curves along with scenarios where you will use them in an algorithm.
-98.  List all types of popular recommendation systems?
-99. Which metrics can be used to measure correlation of categorical data?
-100. Which type of sampling is better for a classification model and why?
-
 
 ----------------------------------------------------------------------------------------------------
 MIQ-001. Parametric Learning Algorithm vs Non Parametric Learning Algorithms?
@@ -190,7 +181,8 @@ MIQ-001. Parametric Learning Algorithm vs Non Parametric Learning Algorithms?
 [RESOURCE] https://sebastianraschka.com/faq/docs/parametric_vs_nonparametric.html
 
 Non-Parametric does not mean that they have NO parameters.
-On the contrary, non-parametric models (can) become more and more complex with an increasing amount of data.
+On the contrary, non-parametric models (can) become more and more complex with an increasing amount 
+of data.
 
 Example of Parametric Algorithms:
     Linear Regression
@@ -204,12 +196,21 @@ Example of Non-Parametric Algorithms:
     RBF kernel SVMs
 
 
-So, in a parametric model, we have a finite number of parameters, and in nonparametric models, the number of parameters is (potentially) infinite. Or in other words, in nonparametric models, the complexity of the model grows with the number of training data; in parametric models, we have a fixed number of parameters (or a fixed structure if you will).
+So, in a parametric model, we have a finite number of parameters, and in nonparametric models, the 
+number of parameters is (potentially) infinite. Or in other words, in nonparametric models, the 
+complexity of the model grows with the number of training data; in parametric models, we have a 
+fixed number of parameters (or a fixed structure if you will).
 
-Linear models such as linear regression, logistic regression, and linear Support Vector Machines are typical examples of a parametric “learners;” here, we have a fixed size of parameters (the weight coefficient.) In contrast, K-nearest neighbor, decision trees, or RBF kernel SVMs are considered as non-parametric learning algorithms since the number of parameters grows with the size of the training set. – K-nearest neighbor and decision trees, that makes sense, but why is an RBF kernel SVM non-parametric whereas a linear SVM is parametric? In the RBF kernel SVM, we construct the kernel matrix by computing the pair-wise distances between the training points, which makes it non-parametric.
+Linear models such as linear regression, logistic regression, and linear Support Vector Machines are
+typical examples of a parametric “learners;” here, we have a fixed size of parameters (the weight 
+coefficient.) In contrast, K-nearest neighbor, decision trees, or RBF kernel SVMs are considered as 
+non-parametric learning algorithms since the number of parameters grows with the size of the 
+training set. – K-nearest neighbor and decision trees, that makes sense, but why is an RBF kernel 
+SVM non-parametric whereas a linear SVM is parametric? In the RBF kernel SVM, we construct the 
+kernel matrix by computing the pair-wise distances between the training points, which makes it 
+non-parametric.
 
-
-Q. How KNN is Non-Parametric Algo?
+Q. How KNN is Non-Parametric Algorithm?
 
 ----------------------------------------------------------------------------------------------------
 MIQ-003. Machine-Learning vs Deep-Learning?
@@ -313,7 +314,7 @@ Less-Expesive Computation
 Features Selection (When we want certain features to be in the model, as Random forest can drop them)
 
 ----------------------------------------------------------------------------------------------------
-MLIQ-004. [Losigtic-Regression] Why Logistic Regression is called Regression?
+MLIQ-004. [Losigtic_Regression] Why Logistic Regression is called Regression?
 
 It works just like a regression, with a sigmoid function applied over it which translate the 
 real-valued output of regression function to [0-1] range probabilities, which can further be 
@@ -400,7 +401,7 @@ Boosting
 
 
 ----------------------------------------------------------------------------------------------------
-MLIQ-010. [Linear-Regression] Assumption of Linear-Regressions?
+MLIQ-010. [Linear_Regression] Assumption of Linear-Regressions?
 
 1. Linear-Model
 2. No-Multicolinearlity
@@ -538,7 +539,7 @@ Grouping by Similarity
 Grouping by Target
 
 ----------------------------------------------------------------------------------------------------
-MLIQ-012. [Decision-Tree] Explain Pruning?
+MLIQ-012. [Decision_Tree] Explain Pruning?
 
 Minimum Leaf Size
 
@@ -571,27 +572,669 @@ thresholds.
 ----------------------------------------------------------------------------------------------------
 MLIQ-013. [SVM] What are kernels in SVM? List some popular SVM kernels?
 
+https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
+
+1. Linear Kernel
+2. Polynomial Kernel
+3. Radial Basis Function (RBF) Kernel
+4. Sigmoid Kernel
 
 ----------------------------------------------------------------------------------------------------
+MLIQ-014. [Decision_Tree] Gini Impurity vs Entropy? Which one is better and why?
+
+https://quantdare.com/decision-trees-gini-vs-entropy/
+
+Gini Index has values inside the interval [0, 0.5] whereas the interval of the Entropy is [0, 1]. 
+
+On the one hand, the gini criterion is much faster because it is less computationally expensive.
+
+On the other hand, the obtained results using the entropy criterion are slightly better.
+
+Nevertheless, as the results are so similar, it does not seem to be worth the time invested in 
+training when using the entropy criterion.
+
 ----------------------------------------------------------------------------------------------------
+MIQ-034. Why does L1 regularization give sparse coefficients?
+
+https://satishkumarmoparthi.medium.com/why-l1-norm-creates-sparsity-compared-with-l2-norm-3c6fa9c607f4
+
 ----------------------------------------------------------------------------------------------------
+MIQ-035. Ways to improve a model’s performance?
+
+1. Add More Data. Use Large high quality dataset.
+2. Treat Missing and Outlier Values
+3. Feature Engineering
+4. Feature Selection
+5. Multiple Algorithms
+6. Algorithm Tuning
+7. Ensemble Methods
+8. Cross Validation
+9. Hyperparameter tuning
+10.Regularization
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-015. [PCA] Can PCA be used to reduce the dimensionality of a highly nonlinear dataset?
+
+However, PCA is traditionally based on linear assumptions, which may not hold for nonlinear datasets
+leading to inefficiencies. Recent research has explored nonlinear PCA methods that use neural 
+network approaches to suit data with nonlinear structures
+
+
 ----------------------------------------------------------------------------------------------------
+MIQ-036. What cross-validation technique would you use on a time series data set?
+
+https://medium.com/@soumyachess1496/cross-validation-in-time-series-566ae4981ce4
+
+
+
+In the case of time series, the cross-validation is not trivial. We cannot choose random samples and
+assign them to either the test set or the train set because it makes no sense to use the values from 
+the future to forecast values in the past.
+
+The method that can be used for cross-validating the time-series model is cross-validation on a 
+rolling basis.
+Start with a small subset of data for training purpose, forecast for the later data points and then 
+checking the accuracy for the forecasted data points. The same forecasted data points are then 
+included as part of the next training dataset and subsequent data points are forecasted.
+
+
 ----------------------------------------------------------------------------------------------------
+MIQ-037. Once a dataset’s dimensionality has been reduced, is it possible to reverse the operation?
+
+It's usually not possible to perfectly reverse the dimensionality reduction of a dataset because 
+some information is lost during the process. However, it's possible to estimate the original 
+dataset's appearance with a high degree of accuracy. 
+For example, in the case of MNIST, it's possible to decompress a reduced dataset by applying the 
+inverse transformation of the PCA projection. 
+
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-016. [Linear_Regression] Importance of intercept term in a regression model?
+
+https://stats.stackexchange.com/questions/7948/when-is-it-ok-to-remove-the-intercept-in-a-linear-regression-model
+
+The intercept term, also known as the constant term, is usually included in regression models to 
+ensure the model is unbiased and to calculate accurate predictions
+
+Unbiased estimates
+The intercept ensures the mean of the residuals is zero, which is crucial for unbiased estimates of 
+the slope and accurate predicted values.
+
+
 ----------------------------------------------------------------------------------------------------
+MIQ-038. When Your Dataset Is Suffering From High Variance, How Would You Handle It?
+
+Cross-Validation
+Ensembling
+
 ----------------------------------------------------------------------------------------------------
+MIQ-040. Model Accuracy vs Model Performance? Which is important?
+
+https://www.fiddler.ai/model-accuracy-vs-model-performance/which-is-more-important-model-performance-or-model-accuracy
+
+Need to define what is Model Performance? Is it execution time? Then depends on the problem.
+But if it means how well your ML solution is accomplishing the required task, then Model Performance
+is much important.
+
+
+Model performance is generally considered more important than model accuracy. While accuracy 
+measures the percentage of correct predictions, performance is a broader assessment of how well a 
+model accomplishes its intended task. Depending on the application, performance metrics may include 
+accuracy, real-time performance, and adaptability
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-017. [Cross_Validation] What is cross validation and its types?
+
+https://www.turing.com/kb/different-types-of-cross-validations-in-machine-learning-and-their-explanations
+
+1. K-fold cross-validation
+2. Hold-out cross-validation [train/test split]
+3. Stratified k-fold cross-validation [Maintains class representation]
+4. Leave-p-out cross-validation
+5. Leave-one-out cross-validation
+6. Monte Carlo (shuffle-split) [Different % of train/test splot]
+7. Time series (rolling cross-validation)
+
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-018. [Ridge_Regression] Why is Ridge Regression called Ridge?
+
+https://math.stackexchange.com/questions/695352/whats-the-ridge-in-ridge-regression
+
+It is named after ridge analysis. ("ridge" refers to the path from the constrained maximum).
+
 ----------------------------------------------------------------------------------------------------
+MIQ-041. Causation vs Correlation?
+
+https://amplitude.com/blog/causation-correlation
+
+
+While causation and correlation can exist simultaneously, Correlation does not imply Causation.
+
+Causation means one thing causes another—in other words, action A causes outcome B. On the other 
+hand, correlation is simply a relationship where action A relates to action B—but one event doesn’t 
+necessarily cause the other event to happen.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-019. [PCA] Chaining two different dimensionality reduction algorithms?
+
+https://www.brainscape.com/flashcards/dimensionality-reduction-8761174/packs/14725107
+
+
+Yes, it can make sense to chain two different dimensionality reduction algorithms. 
+For example, a common practice is to use PCA to quickly remove many useless dimensions, and then 
+apply a slower algorithm like LLE.
+
+Benefits: Chaining algorithms can be useful when one algorithm is fast at removing useless 
+dimensions, and another is better at preserving important information.
+
+Drawbacks: Dimensionality reduction can cause information loss.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-020. [Decision_Tree] If a Decision Tree is underfitting the training set, does feature scaling helps?
+
+No, scaling the input features is generally not necessary to fix underfitting in a decision tree. 
+Decision trees are not sensitive to feature scaling because their splits don't change with any 
+monotonic transformation.
+
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-021. [SVM] What is the fundamental idea behind Support Vector Machines?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+The fundamental idea behind Support Vector Machines is to fit the widest possible “street” between 
+the classes. In other words, the goal is to have the largest possible margin between the decision 
+boundary that separates the two classes and the training instances. When performing soft margin 
+classification, the SVM searches for a compromise between perfectly separating the two classes and 
+having the widest possible street (i.e., a few instances may end up on the street). Another key idea
+is to use kernels when training on nonlinear datasets.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-022. [SVM] What is a support vector?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+After training an SVM, a support vector is any instance located on the “street”, including its 
+border. The decision boundary is entirely determined by the support vectors. Any instance that is 
+not a support vector (i.e., off the street) has no influence whatsoever; you could remove them, add 
+more instances, or move them around, and as long as they stay off the street they won’t affect the 
+decision boundary. Computing the predictions only involve the support vectors, not the whole 
+training set.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-023. [SVM] Why is it important to scale the inputs when using SVMs?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+SVMs try to fit the largest possible “street” between the classes (see the first answer), so if the 
+training set is not scaled, the SVM will tend to neglect small features.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-024. [SVM] Can an SVM classifier output a confidence score during classification? or Probability?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+An SVM classifier can output the distance between the test instance and the decision boundary, and 
+you can use this as a confidence score. However, this score cannot be directly converted into an 
+estimation of the class probability. If you set probability=True when creating an SVM in 
+Scikit-Learn, then after training it will calibrate the probabilities using Logistic Regression on 
+the SVM’s scores (trained by an additional five-fold cross-validation on the training data). This 
+will add the predict_proba() and predict_log_proba() methods to the SVM.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-025. [SVM] Should you use the primal or the dual form of the SVM problem to train a model on a training set with millions of instances and hundreds of features?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+This question applies only to linear SVMs since kernelized can only use the dual form. The 
+computational complexity of the primal form of the SVM problem is proportional to the number of 
+training instances m, while the computational complexity of the dual form is proportional to a 
+number between m2 and m3. So if there are millions of instances, you should definitely use the 
+primal form, because the dual form will be much too slow.
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-026. [SVM] Say you trained an SVM classifier with an RBF kernel. It seems to underfit the training set: should you increase or decrease γ (gamma)? What about C?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+If an SVM classifier trained with an RBF kernel underfits the training set, there might be too much 
+regularization. To decrease it, you need to increase gamma or C (or both).
+
 ----------------------------------------------------------------------------------------------------
+MLIQ-027. [SVM] How to train SVM on multi-class classification problem?
+
+https://rachelchen0104.medium.com/svm-aea183dd6ef6
+
+Train an SVM classifier on the MNIST dataset. Since SVM classifiers are binary classifiers, you will
+need to use one-versus-all to classify all 10 digits. You may want to tune the hyperparameters using
+small validation sets to speed up the process. What accuracy can you reach?
+
+----------------------------------------------------------------------------------------------------
+MLIQ-028. [SVM] Explain Kernel trick in SVM?
+
+https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
+https://www.geeksforgeeks.org/kernel-trick-in-support-vector-classification/
+
+This technique enables the SVM to identify a hyperplane that separates the data with the maximum 
+margin, even when the data is not linearly separable in its original space. The kernel functions 
+are used to compute the inner product between pairs of points in the transformed feature space 
+without explicitly computing the transformation itself. This makes it computationally efficient to 
+deal with high dimensional feature spaces.
+
+The kernel trick relies on the inner products of vectors. For SVMs, the decision function is based 
+on the dot products of vectors within the input space. Kernel functions replace these dot products 
+with a non-linear function that computes a dot product in a higher-dimensional space. Importantly, 
+the computation of this dot product via the kernel function does not require explicit knowledge of 
+the coordinates in the higher space, thus saving computational resources and time.
+
+----------------------------------------------------------------------------------------------------
+MLIQ-029. [SVM] What is the role of the 'Gamma' parameter in the RBF kernel, and how does it affect the SVM model?
+MLIQ-030. [SVM] How can you prevent overfitting when using the Kernel Trick in SVMs?
+
+https://medium.com/@Suraj_Yadav/what-is-kernel-trick-in-svm-interview-questions-related-to-kernel-trick-97674401c48d
+
+----------------------------------------------------------------------------------------------------
+MLIQ-031. [Linear_Regression] How do we interpret weights in linear regression?
+
+https://www.theanalysisfactor.com/interpreting-regression-coefficients/
+
+Numerical-Features 
+Categorical-Features
+
+----------------------------------------------------------------------------------------------------
+MLIQ-032. [Losigtic_Regression] How do you interpret weights in logistic regression?
+
+https://www.quora.com/How-do-you-interpret-weights-in-logistic-regression
+
+----------------------------------------------------------------------------------------------------
+MLIQ-033. [Optimizer] Which Gradient Descent Algorithm will reach the vicinity of the optimal 
+solution the fastest? Which will actually converge? How can you make the others converge as well?
+
+https://github.com/youngjeong46/hands-on-machine-learning/blob/master/TrainingModelQuestions.md
+
+The Stochastic Gradient Descent will reach the fastest since you are using one random training data 
+at each iteration. However, the Batch Gradient Descent is the only one to actually converge. You 
+cannot make the others converge; they will only approach close to the global minimum
+
+----------------------------------------------------------------------------------------------------
+SIQ-004. What is P-value and its important?
+
+The P value is defined as the probability under the assumption of no effect or no difference 
+(null hypothesis), of obtaining a result equal to or more extreme than what was actually observed. 
+The P stands for probability and measures how likely it is that any observed difference between 
+groups is due to chance.
+
+----------------------------------------------------------------------------------------------------
+MIQ-043. What is OvR and OvO for multiclass classification and which machine learning algorithm 
+supports this?
+
+https://wadhwatanya1234.medium.com/multi-class-classification-one-vs-all-one-vs-one-993dd23ae7ca
+https://machinelearningmastery.com/one-vs-rest-and-one-vs-one-for-multi-class-classification/
+
+OvO -> One-vs-One
+OvR -> One-vs-Rest
+
+----------------------------------------------------------------------------------------------------
+MIQ-044. When will be OVO method better than OVR method in multi-class SVM?
+
+https://typeset.io/questions/when-will-be-ovo-method-better-than-ovr-method-in-multi-25hidd86mq
+
+----------------------------------------------------------------------------------------------------
+MLIQ-034. [Lasso_Regression] How will you do feature selection using Lasso Regression?
+
+https://developer.ibm.com/tutorials/awb-lasso-regression-automatic-feature-selection/
+
+Lasso stands for Least Absolute Shrinkage and Selection Operator. It is frequently used in machine 
+learning to handle high dimensional data as it facilitates automatic feature selection. It does this
+by adding a penalty term to the residual sum of squares (RSS), which is then multiplied by the 
+regularization parameter (lambda or λ). This regularization parameter controls the amount of 
+regularization applied. Larger values of lambda increase the penalty, shrinking more of the 
+coefficients towards zero, which subsequently reduces the importance of (or altogether eliminates) 
+some of the features from the model, which results in automatic feature selection. Conversely, 
+smaller values of lambda reduce the effect of the penalty, retaining more features within the model.
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-045. What is the difference between loss function and cost function? Objective function?
+
+https://nadeemm.medium.com/cost-function-loss-function-c3cab1ddffa4
+
+Loss function
+Measures the difference between the actual and predicted values for a single record. It's directly 
+related to the predictions of the model.
+
+Cost function
+Measures the model's error on a group of objects. It's an average of the loss functions over the 
+entire training set.
+
+Objective function
+While training a model, we minimize the cost (loss) over the training data. However, its low value 
+isn’t the only thing we should care about. The generalization capability is even more important 
+since the model that works well only for the training data is useless in practice.
+
+So, to avoid overfitting, we add a regularization term that penalizes the model’s complexity. That 
+way, we get a new function to minimize during training:
+
+In general, the objective function is the one we optimize, i.e., whose value we want to either 
+minimize or maximize. The cost function, that is, the loss over a whole set of data, is not 
+necessarily the one we’ll minimize, although it can be. For instance, we can fit a model without 
+regularization, in which case the objective function is the cost function.
+
+----------------------------------------------------------------------------------------------------
+MIQ-046. What are the common ways to handle missing data in a dataset?
+
+Delete rows or columns
+This straightforward approach can reduce sample size, introduce bias, and lose information. 
+It's also known as case-wise deletion or list-wise deletion.
+
+Impute missing values
+This involves replacing missing data with a value. You can use a single value, like the mean, 
+median, or mode, or multiple values, like a distribution. However, using averages or midpoints can 
+introduce bias.
+
+Use regression methods
+These methods can predict missing values and are often used to fill in missing data.
+
+Use advanced techniques
+For example, you can use K-Nearest Neighbors (KNN) to estimate missing values by finding similar 
+data points
+
+----------------------------------------------------------------------------------------------------
+MIQ-048. Which type of sampling is better for a classification model and why?
+
+There isn't a single best sampling method for classification models, as the method's effectiveness 
+depends on the learning algorithm, training dataset, and its density and composition. However, 
+stratified sampling is often used to ensure representative sampling of classes in a dataset, 
+especially imbalanced datasets
+
+Simple random sampling: One of the best probability sampling techniques that helps in saving time 
+and resources is the Simple Random Sampling method. It is a reliable method of obtaining 
+information where every single member of a population is chosen randomly, merely by chance.
+
+----------------------------------------------------------------------------------------------------
+MIQ-042. Standard-Scaler vs Minmax-Scaler?
+
+MinMaxScaler scales the data to a fixed range, typically between 0 and 1. On the other hand, 
+StandardScaler rescales the data to have a mean of 0 and a standard deviation of 1. This results in 
+a distribution with zero mean and unit variance
+
+----------------------------------------------------------------------------------------------------
+MLIQ-035. [XGBoost] What are some important hyperparameters for XGBOOST?
+
+Commonly adjusted parameters include learning rate (eta), maximum tree depth (max_depth), and 
+minimum child weight (min_child_weight).
+
+----------------------------------------------------------------------------------------------------
+SIQ-005. Difference between Type 1 and Type 2 error?
+
+In statistical hypothesis testing, a type I error is when a null hypothesis is rejected when it's 
+actually true, while a type II error is when a null hypothesis is not rejected when it's actually 
+false.
+
+Type I errors are also known as false positives, while type II errors are also known as false 
+negatives.
+
+----------------------------------------------------------------------------------------------------
+MIQ-049. Difference between Covariance and Correlation?
+
+https://www.mygreatlearning.com/blog/covariance-vs-correlation/
+
+Covariance indicates the direction of the linear relationship between variables. 
+Correlation on the other hand measures both the strength and direction of the linear relationship 
+between two variables.
+
+Covariance can vary between -∞ and +∞
+Correlation ranges between -1 and +1
+
+Covariance is affected by the change in scale. If all the values of one variable are multiplied by 
+a constant and all the values of another variable are multiplied by a similar or different constant,
+then the covariance is changed.
+Correlation is not influenced by the change in scale.
+
+Covariance formula vs Correlation formula?
+
+----------------------------------------------------------------------------------------------------
+MIQ-050. List all types of popular recommendation systems?
+
+1. Collaborative Filtering
+2. Content-Based Filtering
+3. Hybrid Recommendation Systems
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-051. What types of model tend to overfit?
+
+Nonparametric and nonlinear models12are more likely to overfit. These models have more flexibility 
+when learning a target function, which can lead to unrealistic models. 
+
+Many nonparametric machine learning algorithms include parameters or techniques to limit and 
+constrain how much detail the model learns1
+
+For example, decision trees are a nonparametric machine learning algorithm that is very flexible 
+and is subject to overfitting training data. This problem can be addressed by pruning a tree after 
+it has learned in order to remove some of the detail it has picked up.
+
+----------------------------------------------------------------------------------------------------
+MLIQ-036. [OPtimizer] Difference between Stochastic-Gradient-Descent(SGD) & Gradient-Descent(Batch)?
+
+The key difference compared to standard (Batch) Gradient Descent is that only one piece of data from
+the dataset is used to calculate the step, and the piece of data is picked randomly at each step.
+In order to avoid bad local minima, SGD uses a noisy estimate of the gradient - a random gradient, 
+whose expected value is the true gradient4
+
+Advantages and Disadvantages of Stochastic Gradient Descent?
+Advantages and Disadvantages of Gradient Descent?
+
+https://paperswithcode.com/method/sgd-with-momentum
+
+SGD vs Mini-Batch GD?
+
+----------------------------------------------------------------------------------------------------
+MIQ-052..What are some advantages and disadvantages of regression models?
+
+Advantages:
+Interpretability: Linear regression models are straightforward to interpret. The coefficients 
+represent the impact of each feature on the target variable.
+
+No Feature Scaling Required: Unlike some other algorithms, linear regression is not sensitive to 
+feature scaling (e.g., normalization or standardization). **Is this true?
+
+Dis-advantages:
+Sensitive to Outliers: Outliers can significantly affect the model’s performance.
+
+Limited Complexity: Linear regression cannot capture complex patterns in the data, non-linear 
+relaionships.
+
+----------------------------------------------------------------------------------------------------
+MIQ-053..What are some advantages and disadvantages of tree based models?
+
+Advantages:
+Interpretability: Decision trees are transparent and easy to understand.
+
+Non-linear Relationships: Can capture complex, non-linear relationships.
+
+No Feature Scaling Required: Insensitive to feature scaling.
+
+Handles Both Numerical and Categorical Data: Convenient for mixed data types.
+
+
+Dis-advantages:
+Prone to overfitting, especially when they grow too deep or when the dataset is noisy.
+
+High variance, meaning small changes in the training data can result in significantly different 
+trees.
+
+Instability: Small changes in data can lead to different tree structures. Trees can also be 
+sensitive to small changes in the data, as they may create different splits and structures depending
+on the order and randomness of the data.
+
+Bias Toward Dominant Classes: In classification, decision trees tend to favor dominant classes.
+
+----------------------------------------------------------------------------------------------------
+MIQ-054. Describe complete life cycle of a data science project?
+
+Business understanding: Defining the objectives, requirements, and constraints of the project.
+Data collection: Gathering data from relevant sources.
+Data preparation: Cleaning, processing, and structuring the data.
+Exploratory data analysis: Identifying patterns, biases, and ranges in the data.
+Model building: Creating a model to achieve the desired performance.
+Model evaluation: Assessing the effectiveness of the model.
+Model deployment: Integrating the model into existing systems or processes.
+Monitoring: Continuously monitoring the performance of the model and making adjustments as needed.
+
+----------------------------------------------------------------------------------------------------
+MIQ-055. What are the properties of a good ML model?
+
+Generalization
+The model should make accurate predictions on unseen data. It needs to learn patterns from the 
+training data that can be applied effectively to new, previously unseen examples1.
+
+Simplicity
+A good model is simple and interpretable. Simplicity makes it easier to understand, explain, and 
+debug. Complex models might perform well on the training data but can be harder to interpret and 
+may overfit.
+
+Robustness
+The model should handle noise and outliers in the data gracefully. Robustness ensures that the 
+model’s performance remains stable even when faced with unexpected variations or errors.
+
+
+----------------------------------------------------------------------------------------------------
+MIQ-056. Different evaluation metrices for a regression model?
+
+MAE
+MSE
+RMSE
+R-Squared
+MAPE
+
+----------------------------------------------------------------------------------------------------
+MIQ-057. Different evaluation metrices for a classificaion model?
+
+Accuracy
+Confusion-Matrix
+Precission
+Recall
+F1-Score
+AUC-ROC-Curve
+
+----------------------------------------------------------------------------------------------------
+MIQ-058. Why does one hot encoding improve machine learning performance?
+
+Avoid/Remove Ordinality issues
+
+However, one-hot encoding can also introduce multicollinearity and the dummy variable trap, which 
+can affect some regression models.
+
+----------------------------------------------------------------------------------------------------
+MIQ-059. What is Dummy variable trap?
+
+The dummy variable trap occurs when we create the same number of dummy variables as the number of 
+unique values a categorical variable can take on. Let me explain further. 
+
+When using categorical variables (like marital status or eye color) as predictors in regression 
+models, we create dummy variables. These variables take on values of either 0 or 1, representing 
+the presence or absence of a specific category. For instance, if we have three marital status 
+categories (“Single,” “Married,” and “Divorced”), we create two dummy variables (k-1) to avoid 
+redundancy. Let’s say “Single” is our baseline category. The dummy variables would be:
+
+Married: 1 if married, 0 otherwise
+Divorced: 1 if divorced, 0 otherwise
+However, the trap occurs when we mistakenly create k dummy variables (in this case, three). This 
+leads to multicollinearity, where at least two dummy variables are perfectly correlated. 
+
+For example, if we had:
+
+Single: 1 if single, 0 otherwise
+Married: 1 if married, 0 otherwise
+Divorced: 1 if divorced, 0 otherwise
+Here, “Single” and “Married” are perfectly correlated (with a correlation coefficient of -1). 
+This causes incorrect calculations of regression coefficients and p-values. To avoid the trap, 
+always create k-1 dummy variables! 
+
+
+----------------------------------------------------------------------------------------------------
+MLIQ-037. [K_Means] How to select K for K-means?
+
+Elbow Method
+    Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of (k).
+    Choose the (k) for which WSS starts to diminish significantly.
+
+Silhouette Method
+    The silhouette value measures how similar a point is to its own cluster (cohesion) compared to 
+    other clusters (separation).
+    Silhouette values range from +1 to -1, with higher values being desirable.
+    Calculate silhouette scores for different (k) values and choose the one with the highest average
+    silhouette score.
+
+----------------------------------------------------------------------------------------------------
+MIQ-060. Which metrics can be used to measure correlation of categorical data?
+
+Tetrachoric Correlation: This metric is used to calculate the correlation between binary categorical
+variables. Binary variables have only two possible values. The tetrachoric correlation ranges from 
+-1 (strong negative correlation) to 1 (strong positive correlation). For example, if you want to 
+assess whether gender is associated with political party preference, you can use tetrachoric 
+correlation.
+
+Polychoric Correlation: Polychoric correlation is employed for ordinal categorical variables. 
+Ordinal variables have a natural order (e.g., ratings on a scale). The polychoric correlation also 
+ranges from -1 to 1. For instance, if you’re comparing movie ratings from two different agencies 
+(rated on a scale of 1 to 3), you can use polychoric correlation.
+
+Cramer’s V: This metric is used to calculate the correlation between nominal categorical variables. 
+Nominal variables have no inherent order. Cramer’s V ranges from 0 (no correlation) to 1 (strong 
+correlation).
+
+Analysis of variance (ANOVA) - Statistical-Test
+
+----------------------------------------------------------------------------------------------------
+MIQ-061. Why binary_crossentropy and categorical_crossentropy give different performances for the 
+same problem?
+
+https://stackoverflow.com/questions/42081257/why-binary-crossentropy-and-categorical-crossentropy-give-different-performances
+https://www.youtube.com/watch?v=gwtrk6Ml1n8&ab_channel=LukeChaffey
+
+----------------------------------------------------------------------------------------------------
+MIQ-062. Why sometimes it is needed to scale or normalise features?
+
+Gradient Descent Convergence: When training models using gradient-based optimization algorithms 
+(like gradient descent), features with different scales can lead to slow convergence or even 
+divergence. Scaling ensures that the optimization process is more stable and efficient.
+
+Equal Influence: Features with larger scales can dominate the learning process, making other 
+features less influential. Scaling ensures that all features contribute equally to the model.
+
+Distance Metrics: Many algorithms (e.g., k-means clustering, k-nearest neighbors) rely on distance 
+metrics. If features have different scales, the distance calculations can be biased. Scaling helps 
+maintain consistent distances.
+
+Regularization: Regularization techniques (e.g., L1, L2 regularization) penalize large coefficients. 
+Scaling prevents features with large scales from dominating the regularization term. 
+
+Model Interpretability: Scaled features make it easier to interpret model coefficients. 
+For example, in linear regression, the coefficients represent the change in the target variable per 
+unit change in the feature.
+
+----------------------------------------------------------------------------------------------------
+MIQ-063. Difference between Multilabel and MultiClass classification?
+
+Multiclass classification assigns one label to each observation, while multilabel classification 
+allows for multiple labels to be assigned to each observation.
+
+----------------------------------------------------------------------------------------------------
+MIQ-064. What is KL divergence, how would you define its usecase in ML?
+
+KL Divergence helps us understand how much our model’s predictions deviate from the target. It can 
+also be used post production during model monitoring to see how different the predictors and targets 
+are different from the base distributions.
+
+
+KL divergence, also known as Kullback-Leibler divergence, is a metric used to compare two 
+probability distributions. It quantifies how much one distribution differs from another. 
+Specifically, given two probability distributions P and Q, KL divergence measures the number of bits
+required to convert P into Q.
+[Copilot-Search]
+
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
